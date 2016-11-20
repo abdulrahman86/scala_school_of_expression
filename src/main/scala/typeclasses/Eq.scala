@@ -44,7 +44,7 @@ object App1 extends App{
   import Tree._
 
   def equality[T: Eq](t1: T, t2: T): Boolean = implicitly[Eq[T]].==(t1, t2)
-  def greaterThan[T: Ord](t1: T, t2: T): Boolean = implicitly[Ord[T]].==(t1, t2)
+  def greaterThan[T: Ord](t1: T, t2: T): Boolean = implicitly[Ord[T]].>(t1, t2)
 
   println(equality[Tree[Int]](Empty(), Node(2)))
 
