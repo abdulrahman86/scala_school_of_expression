@@ -1,11 +1,6 @@
 package imports
 
 
-trait A1{
-  object C {
-
-  }
-}
 object A {
   def a: String = "a"
 }

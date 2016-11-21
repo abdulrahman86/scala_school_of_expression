@@ -3,7 +3,11 @@ package p1
 
 trait T1 {
 
-  object A{
+  object AA{
     def a: String = "helloa"
+  }
+
+  object BB{
+    def bb: String = "hellob"
   }
 }

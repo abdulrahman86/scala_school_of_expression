@@ -17,8 +17,10 @@ object Test extends App {
 
   }
 
-  import t.A.{a => ta}
+  import t.AA.{a => AAa, _}
+  import t.BB._
 
-  println(ta)
+  println(AAa)
+  println(bb)
 
 }
