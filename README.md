@@ -6,4 +6,5 @@ Haskell School of Expression by Paul Hudak.
 
 * Use of implicits
 * Type classes for polymorphic data types.
-* Type class inheritance.
+* Type class inheritance
+* Scala imports (import hiding, import renaming)

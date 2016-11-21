@@ -49,4 +49,11 @@ object App1 extends App{
   println(equality[Tree[Int]](Empty(), Node(2)))
 
   println(greaterThan[Tree[Int]](Node(1), Node(2)))
+
+  def f(x: List[Int]) = x match {
+    case x @ (h :: t) => h
+    case _ => 2
+  }
+
+  println(f(List(1, 2)))
 }
